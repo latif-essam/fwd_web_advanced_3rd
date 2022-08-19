@@ -1,10 +1,12 @@
 branch-defaults:
+  default:
+    environment: Uapp-env
   main:
     environment: Uapp-env
 environment-defaults:
   Uapp-env:
-    branch: main
-    repository: origin
+    branch: null
+    repository: null
 global:
   application_name: uapp
   default_ec2_keyname: null
@@ -14,6 +16,6 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: default
+  profile: eb-cli
   sc: git
   workspace_type: Application
