@@ -1,10 +1,8 @@
 branch-defaults:
-  default:
-    environment: null
   main:
     environment: Uapp-env-1
 environment-defaults:
-  Uapp-env:
+  Uapp-env-1:
     branch: main
     repository: uapp-repo
 global:
