@@ -3,8 +3,8 @@ branch-defaults:
     environment: Uapp-env-1
 environment-defaults:
   Uapp-env-1:
-    branch: main
-    repository: uapp-repo
+    branch: null
+    repository: null
 global:
   application_name: uapp
   default_ec2_keyname: null
